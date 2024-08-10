@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo.css">
+    <title>Document</title>
+</head>
+<body>
+    <h1> Semanas de Jap</h1>
+
+<div class="semana" id="sem1" >
+<h2>Semana 1: Introducción al Desarollo Web: </h2>
+<p>Desarrollo web se encarga de las funciónes y caracteristicas de un sitio web. Hace posible que los visitantes de un sitio web puedan llevar a cabo acciones en él.</p>
+<h3 id="diferencias"> Diferencia entre diseño web y desarrollo web </h3>
+<table> 
+    <tr>
+        <th>Desarrollo web</th>
+        <th>Diseño web</th>
+    </tr>
+
+
+</table>
+
+
+ </table>
+</div> <br> <br>
+<div class="semana" id="sem2">
+    <h2>Semana 2: Introducción al HTML. </h2> 
+   <h3 id="pweb" > ¿Qué es una página web? </h3>
+  <p>  Una página web es un documento de texto con etiquetas. Las etiquetas permiten modificar la presentación del documento, incluir elementos no contenidos en el texto (por ejemplo, imágenes), crear hiperenlaces, añadir significado al texto (todavía de forma limitada), etc. 
+    Las páginas web son diseñadas con la intención de ser vistas mediante los programas llamados navegadores web. Estos navegadores web son capaces de interpretar las etiquetas y presentar el documento tal y como lo diseñó su autor. 
+</p>
+<h4 id="etiquetas"> Etiquetas: </h4>
+<p> Las etiquetas se escriben entre desigualdades (&lt;h&gt; , &lt;/h&gt; ,&lt;p&gt; , &lt;/p&gt;, etc.) y suele ir por parejas, abriendo y cerrando textos. 
+La etiqueta de apertura tiene como mínimo el nombre de la misma y la etiqueta para cerrar empieza con el carácter barra ( / ) y contiene únicamente el nombre de la etiqueta. 
+</p>
+<p> 
+    Además, las etiquetas pueden tener <span id="atr">atributos</span>, estos se encargan de especificar algunas caracteristicas de la etiqueta.  
+</p>
+</div> <br> <br>
+
+<div class="semana" id="sem3">
+  <h2>
+    Semana 3: Introducción al CSS </h2>
+  <h3> ¿Qué es el CSS? </h3>
+  <p> CSS (Cascading Style Sheets). <br>
+    Una hoja de estilo es un documento utilizado para definir como deben lucir los elementos en el HTML, permiten definir colores, tamaños, fuentes, márgenes y más, de manera que el diseño sea consistente y fácil de modificar.
+<h4> Sintaxis </h4>
+<p>Una hoja de estilo está compuesta por reglas que contienen selectores y declaraciones. Los selectores identifican qué elementos se verán afectados y las declaraciones definen cómo se verán esos elementos. Las propiedades y sus valores se separan por puntos y comas dentro de bloques de declaración.</p> 
+<h4>Selectores</h4>
+<p>En CSS, los selectores determinan a qué elementos se aplicarán las propiedades definidas en las reglas. Existen varios tipos de selectores como los de tipo (E), de clase (E.e), de identificador (E#e), de descendientes (E F), de hijos directos (E > F), consecutivos (E + F), y de grupo (E, F). Cada uno selecciona elementos de manera específica según su estructura y jerarquía en el documento HTML.</p>
+<h4>Especificidad</h4>
+<p>Cuando múltiples reglas afectan a un mismo elemento, se resuelve usando la especificidad del selector. Esto significa que se aplicará la regla más específica, considerando el número de identificadores, clases y elementos dentro del selector. Si la especificidad es igual, se usa la regla definida más tarde en el código.</p> 
+  
+  </div> <br> <br>
+  
+<div class="semana" id="sem4">
+<h2> Semana 4: Introducción al JavaScript (DOM, HTTP, Y Fetch) </h2>
+
+<h4>¿Qué es DOM?</h4>
+<p>DOM permite a los programadores web acceder y manipular los elementos de las páginas HTML
+     a través de objetos llamados nodos.
+
+    <h4>JSON</h4>
+<p>es un formato de datos basado en texto que sigue la sintaxis de objeto de JavaScript. 
+    Aunque es muy parecido a la sintaxis de objeto literal de JavaScript, puede ser utilizado 
+    independientemente de JavaScript, y muchos ambientes de programación poseen la capacidad 
+    de leer y generar JSON. </p>
+
+<h4>HTTP (Protocolo de transferencia de hipertexto)</h4>
+<p>Está diseñado para permitir una comunicación entre clientes y servidores.</p>
+<p>Funciona como un protocolo de pedido-respuesta entre el cliente y servidor.
+    Un navegador web puede ser el cliente, y la aplicación en una computadora 
+    que aloja un sitio web puede ser el servidor.</p>
+<h5>Método GET</h5>
+<p>GET es el método HTTP por defecto. Su función es solicitar un recurso específico,
+     por lo tanto las peticiones que utilizan este método solo deben utilizarse para 
+     obtener información.</p>
+<h5>Método POST</h5>
+<p>El método POST se utiliza para enviar una entidad a un recurso en específico al servidor,
+     causando a menudo un cambio en el estado o efectos secundarios del mismo. Generalmente 
+     es utilizado para enviar al servidor información que queremos que el mismo "registre".</p>
+
+<h5>Diferencias entre el método GET y POST</h5>
+<input type="checkbox" id="check1" value="uno">
+<label for="check1">
+    En el método GET la información es visible en la URL lo que aumenta las vulnerabilidades 
+    y el riesgo de hacking. Por el contrario, el método POST no muestra variables en la URL y
+     también se pueden utilizar múltiples técnicas de codificación, lo que lo hace resistente.
+    </label> <br>
+
+<input type="checkbox" id="check2" value="dos">
+<label for="check2">
+    GET se utiliza para obtener la información.
+     En cambio, el objetivo del método POST es enviar datos para su almacenamiento.
+</label> <br>
+
+<input type="checkbox" id="check3" value="tres">
+<label for="check3">
+    Los resultados de la consulta POST no pueden marcarse, 
+    mientras que los resultados de la consulta GET pueden marcarse porque existen en forma de URL.
+</label> <br>
+
+<input type="checkbox" id="check4" value="cuatro">
+<label for="check4">
+    Cuando se utiliza el método GET en el formulario, sólo se aceptan caracteres ASCII en los tipos 
+    de datos. Por el contrario, el método POST no enlaza tipos de datos de formulario y permite caracteres 
+    binarios.
+</label> <br>
+
+<input type="checkbox" id="check5" value="cinco">
+<label for="check5">
+    El tamaño de la información en el método GET es de aproximadamente 2000 
+    caracteres. El método POST permite hasta 8 Mb.
+</label> <br>
+
+<input type="checkbox" id="check6" value="seis">
+<label for="check6">
+    Los datos del método GET se pueden almacenar en caché, mientras que los datos del método POST no.
+</label> <br>
+
+<h4>Fetch (Comunicación con el servidor)</h4>
+<p>Fetch es una función integrada en JavaScript que se utiliza para hacer 
+    solicitudes HTTP a servidores, obteniendo o enviando datos de manera asíncrona.</p>
+
+</div>
+
+
+</body>
+</html>
